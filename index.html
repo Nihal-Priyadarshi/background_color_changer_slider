@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Changer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="flexbox" id="display">
+    <div class="container flexbox">
+        <h1 id="heading">Background Color Changer</h1>
+        <p id="para">Slide to change color</p>
+        <form action="" class="flexbox">
+            <div class="box flexbox">
+                <label for="Red" id="text1">Red</label>
+                <input type="range" name="Red" id="red" min="0" max="255" step="1" value="200">
+            </div>
+            <div class="box flexbox">
+                <label for="Green" id="text2">Green</label>
+                <input type="range" name="Green" id="green" min="0" max="255" step="1" value="150">
+            </div>
+            <div class="box flexbox">
+                <label for="Blue" id="text3">Blue</label>
+                <input type="range" name="Blue" id="blue" min="0" max="255" step="1" value="100">
+            </div>
+            <div class="box flexbox">
+                <label for="Alpha" id="text4">Alpha</label>
+                <input type="range" name="Alpha" id="alpha" min="0" max="1" step="0.1" value="0.2">
+            </div>
+        </form>
+        <button id="submit" type="submit">Submit</button>
+    </div>
+
+    <script src="./main.js" type="text/javascript"></script>
+</body>
+
+</html>
